@@ -20,5 +20,36 @@
       <artifactId>reactive-streams</artifactId>
       <version>1.0.3-RC1</version>
     </dependency>
+        <dependency>
+        <groupId>io.projectreactor</groupId>
+        <artifactId>reactor-core</artifactId>
+        <version>3.5.10</version> <!-- 使用最新版本 -->
+    </dependency>
+    <dependency>
+        <groupId>io.projectreactor</groupId>
+        <artifactId>reactor-test</artifactId>
+        <version>3.5.10</version>
+        <scope>test</scope>
+    </dependency>
+        <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.10.0</version> <!-- 使用最新版本 -->
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- 可选：JUnit 5 参数化测试支持 -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-params</artifactId>
+        <version>5.10.0</version>
+        <scope>test</scope>
+    </dependency>
   </dependencies>
 </project>
